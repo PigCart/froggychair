@@ -1,0 +1,8 @@
+{
+    "variants": {
+      "facing=north": { "model": "froggychair:block/froggy_chair", "y": 270 },
+      "facing=east":  { "model": "froggychair:block/froggy_chair" },
+      "facing=south": { "model": "froggychair:block/froggy_chair", "y":  90 },
+      "facing=west":  { "model": "froggychair:block/froggy_chair", "y": 180 }
+    }
+  }

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "froggychair",
+  "version": "${version}",
+
+  "name": "Froggy Chair",
+  "description": "1440 Bells",
+  "authors": [
+    "PigCart"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "GPL-3.0",
+  "icon": "assets/froggychair/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "pigcart.froggychair.FroggyChair"
+    ],
+    "client": [
+      "pigcart.froggychair.FroggyClient"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

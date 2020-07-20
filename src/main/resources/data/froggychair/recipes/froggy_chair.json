@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#B#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:lily_pad"
+        },
+        "B": {
+            "item": "minecraft:bell"
+        }
+    },
+    "result": {
+        "item": "froggychair:froggy_chair",
+        "count": 1
+    }
+}
